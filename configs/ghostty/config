@@ -1,0 +1,9 @@
+theme = TokyoNight
+font-family = Iosevka Nerd Font Mono
+font-size = 15
+mouse-hide-while-typing = true
+window-decoration = true
+keybind = global:ctrl+q=toggle_quick_terminal
+background-opacity = 0.7
+background-blur-radius = 20
+cursor-style = block

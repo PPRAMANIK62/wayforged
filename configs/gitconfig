@@ -1,0 +1,14 @@
+[user]
+	email = purbayanpramanik62@gmail.com
+	name = Purbayan Pramanik
+	signingkey = YOUR_GPG_KEY_HERE
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true

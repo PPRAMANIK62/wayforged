@@ -1,0 +1,13 @@
+[
+  {
+    "bindings": {
+      "ctrl-b": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "ctrl-enter": "editor::NewlineBelow"
+    }
+  }
+]

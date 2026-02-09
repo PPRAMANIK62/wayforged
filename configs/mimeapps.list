@@ -1,0 +1,16 @@
+[Default Applications]
+x-scheme-handler/http=app.zen_browser.zen.desktop
+text/html=app.zen_browser.zen.desktop
+application/xhtml+xml=app.zen_browser.zen.desktop
+x-scheme-handler/https=app.zen_browser.zen.desktop
+inode/directory=org.gnome.Nautilus.desktop
+application/x-wayland-gnome-saved-search=org.gnome.Nautilus.desktop
+x-scheme-handler/about=app.zen_browser.zen.desktop
+x-scheme-handler/unknown=app.zen_browser.zen.desktop
+
+[Added Associations]
+x-scheme-handler/http=app.zen_browser.zen.desktop;
+text/html=app.zen_browser.zen.desktop;
+application/xhtml+xml=app.zen_browser.zen.desktop;
+x-scheme-handler/https=app.zen_browser.zen.desktop;
+image/png=org.gnome.Loupe.desktop;

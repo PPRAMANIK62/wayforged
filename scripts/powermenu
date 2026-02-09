@@ -1,0 +1,13 @@
+#!/bin/sh
+# Power menu using rofi
+
+CHOSEN=$(printf "Lock\nSuspend\nReboot\nShutdown\nLog Out" | rofi -dmenu -i)
+
+case "$CHOSEN" in
+"Lock") hyprlock ;;
+"Suspend") systemctl suspend-then-hibernate ;;
+"Reboot") reboot ;;
+"Shutdown") poweroff ;;
+"Log Out") hyprctl dispatch exit ;;
+*) exit 1 ;;
+esac
